@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="top.littledavid.countdowninday.view.activity.CountDownListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--顶部的Tab-->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/unreachedRB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tab_layer_list_drawable"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/unreached"
+                android:textColor="@color/textInLightColor" />
+
+            <RadioButton
+                android:id="@+id/reachedRB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tab_layer_list_drawable"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
+                android:text="@string/reached"
+                android:textColor="@color/textInLightColor" />
+        </RadioGroup>
+
+        <!--提醒的列表-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/targetDayRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="50dp"
+        android:onClick="refresh"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/refresh" />
+
+</FrameLayout>

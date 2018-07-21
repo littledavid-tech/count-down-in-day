@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CountDownInDay</string>
+    <string name="app_name">Count Down In Day</string>
+    <string name="unreached">Unreached</string>
+    <string name="reached">Reached</string>
 </resources>

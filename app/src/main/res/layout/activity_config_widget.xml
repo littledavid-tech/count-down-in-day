@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="top.littledavid.countdowninday.view.activity.ConfigureWidgetActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/textInLightColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/titleET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_border_shape"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Remark"
+        android:textColor="@color/textInLightColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/remarkET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_border_shape"
+        android:gravity="left|top"
+        android:minLines="3"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Target Date"
+        android:textColor="@color/textInLightColor"
+        android:textSize="20sp" />
+
+    <DatePicker
+        android:id="@+id/targetDateDP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:onClick="submit"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/textInDarkColor"
+        android:textSize="20sp" />
+
+</LinearLayout>

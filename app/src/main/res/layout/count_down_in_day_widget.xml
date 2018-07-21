@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/countDownInDatWidgetLayoutR"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/widget_bg_shape">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXX"
+        android:textColor="@color/textInDarkColor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTV"
+        android:layout_marginTop="5dp"
+        android:text="yyyy-MM-dd"
+        android:textColor="@color/textInDarkColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/dayFlagTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="DAYS"
+        android:textColor="@color/textInDarkColor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dayTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dayFlagTV"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="XXX"
+        android:textColor="@color/textInDarkColor"
+        android:textSize="24sp" />
+
+</RelativeLayout>
