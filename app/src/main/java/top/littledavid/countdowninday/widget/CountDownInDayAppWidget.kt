@@ -15,7 +15,7 @@ import top.littledavid.countdowninday.util.subInDay
 import top.littledavid.countdowninday.view.activity.ConfigureWidgetActivity
 
 class CountDownInDayAppWidget : AppWidgetProvider() {
-    
+
     /**
      * 更新小部件
      * */

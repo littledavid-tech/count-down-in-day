@@ -16,7 +16,11 @@
 
 ### 界面截图
 
+![app_widget.png](https://github.com/littledavid-tech/count-down-in-day/blob/master/images/app_widget.png?raw=true)
 
+![edit.png](https://github.com/littledavid-tech/count-down-in-day/blob/master/images/edit.png?raw=true)
+
+![list.png](https://github.com/littledavid-tech/count-down-in-day/blob/master/images/list.png?raw=true)
 
 
 
